@@ -1,14 +1,62 @@
 <template>
   <v-content>
     <section>
-      <v-parallax src="https://cdn.vuetifyjs.com/images/parallax/material.jpg" height="380" dark>
+      <v-parallax src="https://cdn.vuetifyjs.com/images/parallax/material.jpg" height="576" dark>
         <v-layout
           align-center
           column
           justify-center
         >
-          <h1 class="display-2 font-weight-thin mb-3">Prabir Ghosh</h1>
-          <h4 class="subheading">to be added soon... </h4>
+          <v-card color="white" class="black--text" width="700px">
+            <v-container fill-height fluid>
+              <v-layout fill-height>
+                <v-flex xs5>
+                  <v-card-media
+                    src="/static/pro_pic.webp"
+                    height="300px"
+                  ></v-card-media>
+                </v-flex>
+                <v-spacer></v-spacer>
+                <v-flex xs6>
+                  <v-card-title>
+                    <div>
+                      <div class="headline"><h1 class="display-2 mb-3">Prabir Ghosh</h1></div>
+                      <div><strong>to be added soon...</strong></div>
+                      <div class="pt-3"><strong>Phone:</strong></div>
+                      <div>+91 993 33 72215</div>
+                      <div class="pt-3"><strong>Email:</strong></div>
+                      <div>mymail.prabir@gmail.com</div>
+                      <div class="pt-3"><strong>Address:</strong></div>
+                      <div>Pumlia, Chakdaha,</div>
+                      <div>Nadia, WestBengal,</div>
+                      <div>India-741222</div>
+                      <div>Date of Birth:</div>
+                      <div>November 24th, 1992</div>
+                    </div>
+                  </v-card-title>
+                </v-flex>
+              </v-layout>
+            </v-container>
+              <v-card-actions class="pa-3">
+                <v-layout justify-center>
+                  <v-btn flat icon color="black lighten-1" href="http://www.facebook.com/djprabir">
+                    <v-icon color="black darken-2">mdi-facebook</v-icon>
+                  </v-btn>
+                  <v-btn flat icon color="black lighten-1" href="http://www.twitter.com/djprabir">
+                    <v-icon color="black darken-2">mdi-twitter</v-icon>
+                  </v-btn>
+                  <v-btn flat icon color="black lighten-1" href="https://www.linkedin.com/in/prabir-ghosh">
+                    <v-icon color="black darken-2">mdi-linkedin</v-icon>
+                  </v-btn>
+                  <v-btn flat icon color="black lighten-1" href="https://github.com/PRABIRSOFT">
+                    <v-icon color="black darken-2">mdi-github-circle</v-icon>
+                  </v-btn>
+                  <v-btn flat icon color="black lighten-1" href="http://plus.google.com/+PrabirGhoshGplus">
+                    <v-icon color="black darken-2">mdi-google-plus</v-icon>
+                  </v-btn>
+                </v-layout>
+              </v-card-actions>
+          </v-card>
         </v-layout>
       </v-parallax>
     </section>
@@ -117,7 +165,8 @@
                 <div class="headline">Contact me</div>
               </v-card-title>
               <v-card-text>
-                Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare.
+                <div>Prabir Ghosh</div>
+                <div>Software Developer</div>
               </v-card-text>
               <v-list class="transparent">
                 <v-list-tile>
