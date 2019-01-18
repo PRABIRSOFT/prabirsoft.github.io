@@ -1,6 +1,5 @@
 // Server Side Code For Deployment
 const path = require('path')
-const http = require('http')
 const express = require('express')
 
 const DIST_DIR = path.join(__dirname, 'dist')
