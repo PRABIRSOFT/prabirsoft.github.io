@@ -1,7 +1,9 @@
 <template>
-  <div id="app" light>
-    <Header></Header>
-    <Content></Content>
+  <div id="app">
+    <v-app>
+      <Header></Header>
+      <Content></Content>
+    </v-app>
   </div>
 </template>
 
@@ -11,6 +13,9 @@ import Content from './components/Content'
 
 export default {
   name: 'App',
+  data () {
+    return {}
+  },
   components: {
     Header: Header,
     Content: Content
@@ -19,5 +24,4 @@ export default {
 </script>
 
 <style>
-#app {}
 </style>

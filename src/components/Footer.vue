@@ -2,7 +2,7 @@
   <v-footer class="blue-grey darken-3">
     <v-layout row wrap align-center>
       <v-flex xs12 pa-2>
-        <div class="white--text ml-3 text-lg-right">Design & Developed by Prabir Ghosh</div>
+        <div class="white--text ml-3 text-lg-right caption">Design & Developed by Prabir Ghosh</div>
       </v-flex>
     </v-layout>
   </v-footer>

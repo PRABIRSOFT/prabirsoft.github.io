@@ -2,18 +2,13 @@
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import 'babel-polyfill'
 import Vue from 'vue'
+import './plugins/vuetify'
 import App from './App'
-import Vuetify from 'vuetify'
-import 'vuetify/dist/vuetify.min.css'
 import '@mdi/font/css/materialdesignicons.css'
-
-Vue.use(Vuetify)
 
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
 new Vue({
-  el: '#app',
-  components: { App },
-  template: '<App/>'
-})
+  render: h => h(App)
+}).$mount('#app')

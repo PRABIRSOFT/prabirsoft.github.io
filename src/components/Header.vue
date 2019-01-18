@@ -1,6 +1,6 @@
 <template>
   <v-toolbar class="white">
-    <v-toolbar-title>Prabir Ghosh</v-toolbar-title>
+    <v-toolbar-title class="display-1">Prabir Ghosh</v-toolbar-title>
   </v-toolbar>
 </template>
 
