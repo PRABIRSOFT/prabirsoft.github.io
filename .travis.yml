@@ -16,14 +16,9 @@ branches:
   except:
     - gh-pages
 stages:
-  - lint
   - build
 jobs:
   include:
-    - stage: lint
-      script:
-        # Run linter
-        - npm run lint
     - stage: build
       script: 
         # Run build
