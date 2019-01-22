@@ -1,7 +1,7 @@
 <template>
   <v-content>
     <section>
-      <v-parallax src="/images/about.png" height="600" dark>
+      <v-parallax src="./images/about.png" height="600" dark>
         <v-layout
           align-center
           row
@@ -13,7 +13,7 @@
               <v-layout row wrap>
                 <v-flex sm6 md6 xs12>
                   <v-img
-                    src="/images/pro_pic.webp"
+                    src="./images/pro_pic.webp"
                     height="100%"
                   ></v-img>
                 </v-flex>
@@ -95,7 +95,7 @@
     </section>
 
     <section>
-      <v-parallax src="/images/cimta.jpg" height="600">
+      <v-parallax src="./images/cimta.jpg" height="600">
         <v-layout column align-center justify-center>
           <div class="headline white--text mb-3 text-xs-center">Offline Signature Verification Using Pixel Matching Technique</div>
           <em>First International Conference on Computational Intelligence: Modeling Techniques and Applications (CIMTA) 2013 </em>
@@ -194,7 +194,7 @@
     </section>
 
     <section>
-      <v-parallax src="/images/github.webp" height="600">
+      <v-parallax src="./images/github.webp" height="600">
         <v-layout column align-center justify-center>
           <div class="headline white--text mb-3 text-xs-center">Software development has never been easier</div>
           <v-btn
