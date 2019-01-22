@@ -4,7 +4,6 @@
 set -e
 
 # build
-git checkout -b 
 npm run build
 
 # navigate into the build output directory
