@@ -2,7 +2,7 @@
 
 > My Own CV With Vue-CLI
 
-![build & deployment](https://github.com/PRABIRSOFT/cv/blob/master/.github/workflows/deploy.yml)
+![Depoly My Page](https://github.com/PRABIRSOFT/cv/blob/master/.github/workflows/deploy.yml)
 
 ## Build Setup
 
