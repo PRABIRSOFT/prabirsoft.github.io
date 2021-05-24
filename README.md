@@ -2,7 +2,7 @@
 
 > My Own CV With Vue-CLI
 
-[![Build Status](https://travis-ci.org/PRABIRSOFT/cv.svg?branch=master)](https://travis-ci.org/PRABIRSOFT/cv)
+![build & deployment](https://github.com/PRABIRSOFT/cv/blob/master/.github/workflows/deploy.yml)
 
 ## Build Setup
 
